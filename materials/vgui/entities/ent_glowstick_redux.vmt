@@ -1,0 +1,38 @@
+UnlitGeneric 
+{ 
+	$basetexture		vgui/entities/weapon_glowstick_redux
+	$vertexcolor 		1
+	$vertexalpha 		1
+	$nolod 				1
+	
+	"$color" "[1 1 1]"
+
+	"$offset" "0"
+
+	"Proxies"
+	{
+		"EntityRandom"
+		{
+			"scale" "12"
+			"resultVar" "$offset"
+		}
+		"Sine"
+		{
+			"sineperiod" 2
+			"timeoffset" "$offset"
+			"resultVar" "$color[0]"
+		}
+		"Sine"
+		{
+			"sineperiod" 6
+			"timeoffset" "$offset"
+			"resultVar" "$color[1]"
+		}
+		"Sine"
+		{
+			"sineperiod" 4
+			"timeoffset" "$offset"
+			"resultVar" "$color[2]"
+		}
+	}
+}

@@ -1,0 +1,19 @@
+VertexLitGeneric
+{
+	$basetexture	gmod4phun/glowsticks/glow
+
+	$surfaceprop	plastic
+	$selfillum		1
+	$phong			1
+
+	$phongboost		50
+	$phongexponent	200
+	$phongfresnelranges	"[.1 0.5 2]"
+	
+	"Proxies"
+	{
+		"GlowstickReduxColor"
+		{
+		}
+	}
+}

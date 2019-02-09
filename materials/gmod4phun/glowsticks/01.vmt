@@ -1,0 +1,16 @@
+VertexLitGeneric
+{
+	$basetexture	gmod4phun/glowsticks/01
+	$envmap			env_cubemap
+	$surfaceprop	plastic
+	$selfillum		0
+	$phong			1
+
+	$phongexponent	40
+	$phongfresnelranges	"[1 1 1]"
+	$phongboost		10
+	$basemapalphaphongmask	1
+	$envmaptint		"[.02 .02 .02]"
+	
+	$blendtintbybasealpha	1
+}
